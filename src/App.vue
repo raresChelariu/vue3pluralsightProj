@@ -10,17 +10,17 @@
     </nav>
   </header>
   <main>
-    <HomePage msg="Welcome to Your Vue.js App" />
+    <RobotBuilder />
   </main>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue';
+import RobotBuilder from './build/RobotBuilder.vue';
 
 export default {
   name: 'App',
   components: {
-    HomePage,
+    RobotBuilder,
   },
 };
 </script>
@@ -31,8 +31,7 @@ export default {
 }
 
 body {
-  background: linear-gradient(to bottom, #555, #999);
-  background-attachment: fixed;
+  background: linear-gradient(to bottom, #555, #999) fixed;
 }
 
 main {
